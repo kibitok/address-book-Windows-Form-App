@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Address Book.exe" version="1.0.0.2" publicKeyToken="f066c459c492bcca" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:publisher="Address Book" asmv2:product="Address Book" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Address Book" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Address Book.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Address Book.exe" size="31192">
+      <assemblyIdentity name="Address Book" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>EcDzHfjxQECnSERmCJill6eRHmyIm7E3Pz8lFP1XkCU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Address Book.exe.config" size="1056">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Z7kgWDHP4r/TMbuMo34UvUx6VDcGU+1pbcq2Dv1jY3Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-CA8EKM1\Bett" issuerKeyHash="c91c19ab0a5ddc0f2ef051ee2392fdca37daaf5f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>sbgTNUtOVgVhkC4ItPrWlYmFINPf7Cx6pAwhGRODuHU=</DigestValue></Reference></SignedInfo><SignatureValue>K5KH6vJoHl02J40rzESw3YZm/vNt0py0IB7tod1+qVhmdKO3BggnXtqFwiAlWAVydMU7iz6vPVsYFIUh8WyyJ4uj5Hu5yT9ia4ns3WdQILdRHey33m9p4vMBKMowEvJI52sCvOmDtVP22NJnIHBXqbckUNYzehwndYloA+H8x8g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>+ilGKKJEB/cDyBKp5Imej4culvYEnTPS+eB+8RM2EyEEn4j4Vln40xI5kGXO+IxyJ9+xxRcoyZaWpf0UkVARtSGB6deJizdeYdI9tttoKCiEtPAaDibB7mIG7M0GTHWkFWLfcDlv11ZP/tYTxwR+zy23BKTfTR9Ph+thS4nFPy0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="75b8831319210ca47a2cecdfd320858995d6fab4082e906105564e4b3513b8b1" Description="" Url=""><as:assemblyIdentity name="Address Book.exe" version="1.0.0.2" publicKeyToken="f066c459c492bcca" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-CA8EKM1\Bett</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>0M2Pxrn3oK3HPJTcGSBoxjnxZ4/jgIBHve9DPL2m5V0=</DigestValue></Reference></SignedInfo><SignatureValue>hs0c+FK97Hi/sUeBzk/J/LYQo0uqwd5EdvthTAvRkvIykAwY9X13R9VjyZcmTcHmNio6feCQ03MUzSDPrlf6RshbMI0xBNiZ8cTIVuqiwp5qeUBaVtvi+1jW4COKCyMcM4/gXfJiHon1h/bchJ2D/pQj0vF6Qysx0T1atct3UDY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>+ilGKKJEB/cDyBKp5Imej4culvYEnTPS+eB+8RM2EyEEn4j4Vln40xI5kGXO+IxyJ9+xxRcoyZaWpf0UkVARtSGB6deJizdeYdI9tttoKCiEtPAaDibB7mIG7M0GTHWkFWLfcDlv11ZP/tYTxwR+zy23BKTfTR9Ph+thS4nFPy0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQJa9nsKxGOq9PA5aNtvnPyjANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAEMAQQA4AEUASwBNADEAXABCAGUAdAB0MB4XDTE5MDYyNjEyMjMwNFoXDTIwMDYyNTE4MjMwNFowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBDAEEAOABFAEsATQAxAFwAQgBlAHQAdDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA+ilGKKJEB/cDyBKp5Imej4culvYEnTPS+eB+8RM2EyEEn4j4Vln40xI5kGXO+IxyJ9+xxRcoyZaWpf0UkVARtSGB6deJizdeYdI9tttoKCiEtPAaDibB7mIG7M0GTHWkFWLfcDlv11ZP/tYTxwR+zy23BKTfTR9Ph+thS4nFPy0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAfp8W8cOsigPskazVmI1hndGvxaogmKc/1uCQoqgsv6POu4Blc+xl7ACLsGPOx0qFz+LdQpAF13lIt4QEx+UeTq1+2zJzQSdYfbbyawLpWqXwS5RkOJ1vtxyQvjsprXf5ohytdzpnkm+amyjLuCK1lRc/6kyRpjJcrLtS4AVStgw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

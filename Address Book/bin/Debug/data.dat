@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<Data xmlns="http://tempuri.org/Data.xsd">
+  <PhoneBook>
+    <PhoneNumber>0701111111</PhoneNumber>
+    <Name>bett</Name>
+    <Email>bett@gmail.com</Email>
+    <Address>25 K3NYQ</Address>
+    <ID>-1</ID>
+  </PhoneBook>
+  <PhoneBook>
+    <PhoneNumber>071132366333</PhoneNumber>
+    <Name>kibitok</Name>
+    <Email>Abraham@gmail.com</Email>
+    <Address>123 kenyatta</Address>
+    <ID>-2</ID>
+  </PhoneBook>
+  <PhoneBook>
+    <PhoneNumber>07722333466</PhoneNumber>
+    <Name>BEN</Name>
+    <Email>ben@admi,ac,ke</Email>
+    <Address>32 loinange street</Address>
+    <ID>-3</ID>
+  </PhoneBook>
+  <PhoneBook>
+    <ID>-4</ID>
+  </PhoneBook>
+</Data>
